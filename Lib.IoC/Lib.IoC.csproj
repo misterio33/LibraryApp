@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="MapperProfiles\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Lib.Domain.Infrastructure\Lib.Domain.Infrastructure.csproj" />
+    <ProjectReference Include="..\Lib.Domain\Lib.Domain.Entity.csproj" />
+    <ProjectReference Include="..\Lib.DTO\Lib.DTO.csproj" />
+    <ProjectReference Include="..\Lib.Interfaces\Lib.Interfaces.csproj" />
+    <ProjectReference Include="..\Lib.Services\Lib.Services.csproj" />
+    <ProjectReference Include="..\Lib.ViewModels\Lib.ViewModels.csproj" />
+  </ItemGroup>
+
+</Project>
